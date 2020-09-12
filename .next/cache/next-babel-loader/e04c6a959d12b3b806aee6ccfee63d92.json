@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport { useRouter } from 'next/router';\n\nfunction Project() {\n  var router = useRouter();\n  return __jsx(\"div\", null, \"Esta es la p\\xE1gina del fucking proyecto \", router.query.slug);\n}\n\nexport default Project;","map":null,"metadata":{},"sourceType":"module"}
